@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  background-color: #38bdf8;
+  width: 100%;
+  height:100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.receptores-number {
+  background-color: #d946ef;
+  border: none;
+  border-radius: 2rem;
+
+  width: 20%;
+  height: 50%;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1.5rem;
+}
+
+.input-groupe {
+  display: flex;
+  flex-direction: column;
+
+  & input {
+    border-radius: 2rem;
+    border: none;
+    padding-left: .5rem;
+    outline: none;
+    margin-top: .5rem ;
+    margin-bottom: 1rem;
+  }
+
+  & select {
+    border: none;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  & button {
+    border: none;
+    border-radius: 2rem;
+  }
+}
+
